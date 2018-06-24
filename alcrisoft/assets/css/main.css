@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+ }
+
+.verde {
+  background: #dae14a !important;
+}
+
+.azul {
+  background: #294D90 !important;
+}
+
+.linea {
+  width: 80%;
+}
+
+.row {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.italic {
+  font-style: italic;
+}
