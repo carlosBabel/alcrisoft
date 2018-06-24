@@ -14,6 +14,9 @@ export class InicioComponent implements OnInit {
 	ngOnInit() {
 		$(document).ready(function(){
 			$('.slider').slider();
-			});
+		});
+		$(document).ready(function(){
+			$('.modal').modal();
+		});
   	}
 }
