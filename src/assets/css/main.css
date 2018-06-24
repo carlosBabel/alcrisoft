@@ -6,7 +6,6 @@ body {
 
   footer {
     position: absolute;
-    bottom: 0;
     left: 0;
     width: 100%;
  }
@@ -21,4 +20,13 @@ body {
 
 .linea {
   width: 80%;
+}
+
+.row {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.italic {
+  font-style: italic;
 }
