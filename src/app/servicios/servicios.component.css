@@ -1,0 +1,21 @@
+.card {
+    margin: 0;
+}
+.frase {
+    font-size:24px;
+}
+
+.separacion {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.carousel {
+    height: 250px;
+}
+
+.promo {
+    margin: 40px 0;
+    color: #ee6e73;
+    font-size: 8rem;
+}
