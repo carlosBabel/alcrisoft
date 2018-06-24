@@ -1,0 +1,6 @@
+.slides > li {
+    background: linear-gradient(to bottom, #dae14a, #294D90);
+  }
+.slider .indicators .indicator-item.active {
+    background-color: #e8871e;
+}
