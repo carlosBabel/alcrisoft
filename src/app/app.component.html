@@ -9,7 +9,7 @@
                         <li><a routerLink="inicio" class="btn orange darken-3"><i class="material-icons left">home</i>Inicio</a></li>
                         <li><a routerLink="soporte" class="btn orange darken-3"><i class="material-icons left">school</i>Soporte a la Formación</a></li>
                         <li><a class="btn orange darken-3" routerLink="software"><i class="material-icons left">save</i>Software</a></li>
-                        <li><a class="btn orange darken-3" routerLink="servicios"><i class="material-icons left">language</i>Servicios Web</a></li>
+                        <li><a class="btn orange darken-3" routerLink="servicios"><i class="material-icons left">public</i>Servicios Web</a></li>
                     </ul>
                 </div>
             </div>   
@@ -25,17 +25,19 @@
 
     <main>
         <router-outlet></router-outlet>
+
+        <footer class="page-footer docs-footer orange lighten-2">
+                <div class="container">
+                    <div class="footer-copyright transparent black-text">
+                        © 2010-2018 Alcrisoft. S.L. Todos los derechos reservados.
+                        <a class="grey-text text-darken-1 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">MIT License</a>
+                    </div>
+                </div>
+            </footer>
     </main>
 
 
-    <footer class="page-footer docs-footer orange lighten-2">
-        <div class="container">
-            <div class="footer-copyright transparent black-text">
-                © 2010-2018 Alcrisoft. S.L. Todos los derechos reservados.
-                <a class="grey-text text-darken-1 right" href="https://github.com/Dogfalo/materialize/blob/master/LICENSE">MIT License</a>
-            </div>
-        </div>
-    </footer>
+    
 
     <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

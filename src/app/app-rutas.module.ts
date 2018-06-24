@@ -10,7 +10,8 @@ const routes: Routes = [
   { path: 'soporte', component: SoporteComponent },
   { path: 'software', component: SoftwareComponent },
   { path: 'servicios', component: ServiciosComponent },
-  { path: '', redirectTo: '/inicio', pathMatch: 'full' }
+  { path: '', redirectTo: 'inicio', pathMatch: 'full' },
+  { path: '**', redirectTo: 'inicio', pathMatch: 'full' }
 ]
 
 @NgModule({
