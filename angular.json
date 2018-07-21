@@ -50,11 +50,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "alcrisoft:build"
+            "browserTarget": "educasoft:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "alcrisoft:build:production"
+              "browserTarget": "educasoft:build:production"
             }
           }
         },
@@ -95,7 +95,7 @@
         }
       }
     },
-    "alcrisoft-e2e": {
+    "educasoft-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
